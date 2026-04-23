@@ -28,7 +28,7 @@ bool CLEARED;
 }
 
 inline void useConsoleCharRule() {
-  char* ARG_COUNT[100];
+  char ARG_COUNT[100];
   for( auto i; i <= 0; ++i ) {
        while(ARG_COUNT[i][0] && ARG_COUNT[i][99] == "("[i][0]+")"[i][99]) {
            if( true ) {
