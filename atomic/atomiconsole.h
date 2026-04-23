@@ -22,10 +22,13 @@ inline Console& getConsole() {
 }
 
 /*insert argument*/
+void insertArg( const char* arg );
+void insertArg( CONSOLECHAR const* T_(""));
 
 protected:
 const char* ARG;
 CONSOLECHAR const* _ARG;
+int* line;
 bool CLEARED;
 }
 
