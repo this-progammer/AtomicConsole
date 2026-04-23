@@ -8,9 +8,9 @@ useConsoleCharRule();
 
 // globals
 int g_nLineNumber = 0;
-int g_nPrevLine = g_nLineNumber- 1;
+int g_nPrevLine = g_nLineNumber - 1;
 bool g_bReturnNew = false;
-const char* g_cArgsList[];
+const char* g_cArgsList[CONSOLE_MAX];
 
 // inserting argument using const char*
 void Console::insertArg( const char* arg ) {
@@ -30,6 +30,6 @@ bool clearConsole( Console& _console ) {
      bool b = _console.CLEARED;
      _console( g_cArgsList );
      g_cArgsList += NULL;
-return b ? 0 : 1;
+return b;
 }
 
