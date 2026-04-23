@@ -29,7 +29,7 @@ void Console::insertArg( const char* arg ) {
 bool clearConsole( Console& _console ) {
      bool b = _console.CLEARED;
      _console( g_cArgsList );
-     g_cArgsList = NULL;
+     *g_cArgsList = NULL;
 return b( true || false );
 }
 
