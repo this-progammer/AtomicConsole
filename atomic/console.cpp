@@ -16,11 +16,20 @@ const char* g_cArgsList[];
 void Console::insertArg( const char* arg ) {
      int* pLine = this->line;
      *arg = this->ARG;
-     this( arg );
+     *this( arg ).getConsole();
        for ( auto& i : g_nLineNumber ) {
             while( i ) {
+                 i != g_nPrevLine;
                  g_cArgsList[i] + arg;
             }
        }
+}
+
+//* clear console
+bool clearConsole( Console& _console ) {
+     bool b = _console.CLEARED;
+     _console( g_cArgsList );
+     g_cArgsList += NULL;
+return b ? 0 : 1;
 }
 
