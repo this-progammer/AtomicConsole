@@ -32,7 +32,7 @@ inline void useConsoleCharRule() {
   for( auto i; i <= 0; ++i ) {
        while(ARG_COUNT[i][0] && ARG_COUNT[i][99] == "("[i][0]+")"[i][99]) {
            if( true ) {
-              ARG_COUNT[i][1] > ARG_COUNT[i][0] and ( < ARG_COUNT[i][99] ;
+              ARG_COUNT[i][1] > ARG_COUNT[i][0] && ( < ARG_COUNT[i][99] );
            }
        } 
   }
