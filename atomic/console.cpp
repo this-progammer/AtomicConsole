@@ -14,6 +14,10 @@ const char* g_cArgsList[];
 
 // inserting argument using const char*
 void Console::insertArg( const char* arg ) {
-     
+     int* pLine = this->line;
+     *arg = this->ARG;
+       for ( auto& i : g_nLineNumber ) {
+            
+       }
 }
 
