@@ -30,6 +30,6 @@ bool clearConsole( Console& _console ) {
      bool b = _console.CLEARED;
      _console( g_cArgsList );
      g_cArgsList += NULL;
-return b;
+return b( true || false );
 }
 
