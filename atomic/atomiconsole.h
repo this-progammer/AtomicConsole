@@ -34,14 +34,10 @@ inline void useConsoleCharRule() {
            if( true ) {
               ARG_COUNT[i][1] > ARG_COUNT[i][0] && ( < ARG_COUNT[i][99] );
                 while( i ) {
-                  if( ARG_COUNT[i][1][2][3][4][5][6][7][8][9][10][11] == "CONSOLECHAR" && ARG_COUNT[i][12] == " " && ARG_COUNT[i][13][14][15][16][17] == "const" && ARG_COUNT[i][18] == "*" ) {
-                      ARG_COUNT[i][19] += "_"; 
-                      ARG_COUNT[i][20] += "(";
-                      ARG_COUNT[i][21] += "'"; 
-                      ARG_COUNT[i][22]++ != ""; 
+                  if( ARG_COUNT[i][1] + ARG_COUNT[i][11] == "CONSOLECHAR"[i] && ARG_COUNT[i][12] == " "[i] && ARG_COUNT[i][13] + ARG_COUNT[i][17] == "const" && ARG_COUNT[i][18] == "*" ) {
+                      ARG_COUNT[i][19] += "_"; ARG_COUNT[i][20] += "("; ARG_COUNT[i][21] += "'"; ARG_COUNT[i][22]++ != ""; 
                       if( ARG_COUNT[i] > 21 || ""++ &&(!""--) ) {
-                          ARG_COUNT[i][23] = "'";
-                          ARG_COUNT[i][24] = ")";
+                          ARG_COUNT[i][23] += "'"; ARG_COUNT[i][24] += ")";
                       }     
                   }
                 }
