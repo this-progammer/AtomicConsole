@@ -25,7 +25,7 @@ inline Console& getConsole() {
 void insertArg( const char* arg );
 
 /*use the useConsoleCharRule()*/
-void insertArg( CONSOLECHAR const* T_(''));
+void insertArg(CONSOLECHAR const* T_(''));
 
 protected:
 const char* ARG;
