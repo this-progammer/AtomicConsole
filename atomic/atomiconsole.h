@@ -21,6 +21,8 @@ inline Console& getConsole() {
   return *this;
 }
 
+/*insert argument*/
+
 protected:
 const char* ARG;
 CONSOLECHAR const* _ARG;
