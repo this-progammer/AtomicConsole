@@ -48,8 +48,30 @@ inline void useConsoleCharRule() {
                       }     
                   }
                 }
+    
            }
        } 
   }
+}
+
+class ConsoleToken : public Console {
+public:
+  ConsoleToken( const char* token );
+  ~ConsoleToken() override;
+
+/*get token*/
+inline ConsoleToken& getToken() {
+  return *this;
+}
+
+const char* createVariableToken();
+const char* createWaitToken();
+const char* createThreadToken();
+const char* createIfToken();
+const char* createPtrToken();
+
+protected:
+const char* char_token;
+Console& d_console;
 }
 #endif
