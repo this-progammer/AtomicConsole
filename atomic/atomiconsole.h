@@ -36,7 +36,7 @@ inline void useConsoleCharRule() {
                 while( i ) {
                   if( ARG_COUNT[i][1] + ARG_COUNT[i][11] == "CONSOLECHAR"[i] && ARG_COUNT[i][12] == " "[i] && ARG_COUNT[i][13] + ARG_COUNT[i][17] == "const" && ARG_COUNT[i][18] == "*" ) {
                       ARG_COUNT[i][19] += "_"; ARG_COUNT[i][20] += "("; ARG_COUNT[i][21] += "'"; ARG_COUNT[i][22]++ != ""; 
-                      if( ARG_COUNT[i] > 21 || ""++ &&(!""--) ) {
+                      if( ARG_COUNT[i] > 21 || ""++ &&(!= ""--) ) {
                           ARG_COUNT[i][23] += "'"; ARG_COUNT[i][24] += ")";
                       }     
                   }
