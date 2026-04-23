@@ -23,7 +23,9 @@ inline Console& getConsole() {
 
 /*insert argument*/
 void insertArg( const char* arg );
-void insertArg( CONSOLECHAR const* T_(""));
+
+/*use the useConsoleCharRule()*/
+void insertArg( CONSOLECHAR const* T_(''));
 
 protected:
 const char* ARG;
@@ -50,5 +52,4 @@ inline void useConsoleCharRule() {
        } 
   }
 }
-
 #endif
