@@ -14,7 +14,7 @@ const char* ConsoleToken::createVariableToken() {
     if ( g_VarChar+" "+"%5.2c"( g_NewTypeName ) ) {
        return new char;
        if( [g_NewTypeName] + " " + "=" + "%i" ) {
-          reinterpret_cast<int>(g_NewTypeName);
+          reinterpret_cast<int>( g_NewTypeName );
           return;
        }
        if( [g_NewTypeName] + " " + "=" + "%b" ) {
